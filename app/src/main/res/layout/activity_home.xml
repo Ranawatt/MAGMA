@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.magma.minemagma.HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ar_btn"
+            android:layout_width="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back"
+            android:onClick="back"
+            android:layout_height="30dp">
+        </Button>
+
+        <Button
+            android:id="@+id/home"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="30dp"
+            android:text="Save Offline"
+            android:onClick="bookOffline"
+            android:layout_height="30dp">
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Acts &amp; Rules"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="25dp" ></TextView>
+    </RelativeLayout>
+
+
+<FrameLayout
+    android:id="@+id/fragment_container2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+    android:numColumns="auto_fit"
+    android:gravity="center"
+    android:columnWidth="100dp"
+    android:stretchMode="columnWidth"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/grid"
+    />
+
+
+    </FrameLayout>
+
+    </LinearLayout>

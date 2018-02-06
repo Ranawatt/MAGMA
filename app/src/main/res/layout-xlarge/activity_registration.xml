@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.magma.minemagma.RegistrationActivity"
+    android:weightSum="2">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:weightSum="2"
+        android:layout_gravity="center_horizontal">
+
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_marginTop="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:onClick="back"
+                android:paddingBottom="50dp"
+                android:paddingTop="30dp"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/back"
+                android:id="@+id/imageView10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo"
+                android:id="@+id/imageView11"
+                android:paddingRight="100dp"
+                android:paddingTop="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="6">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:paddingLeft="100dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up to your account"
+                android:paddingTop="20dp"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:id="@+id/textView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:paddingLeft="35dp"
+                android:textSize="25dp"
+                android:background="@drawable/round"
+                android:layout_gravity="center"
+                android:inputType="textEmailAddress"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:hint="Email"
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/et_phn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:paddingLeft="35dp"
+                android:textSize="25dp"
+                android:background="@drawable/round"
+                android:layout_gravity="center"
+                android:inputType="phone"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:hint="Phone Number"
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageButton
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="150dp"
+                android:background="@drawable/signup"
+                android:onClick="signUp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:id="@+id/imageButton4"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

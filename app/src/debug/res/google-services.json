@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "188914828991",
+    "project_id": "magma-147907"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188914828991:android:20b0499a40880202",
+        "android_client_info": {
+          "package_name": "com.magma.MAGMA"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188914828991-gfmuboib4jeihv4k9ooed7te3plb27bh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.magma.MAGMA",
+            "certificate_hash": "50AE4C8868627F062EF16E8892D36485C96AEA27"
+          }
+        },
+        {
+          "client_id": "188914828991-0k62lkvrnat6iaqnbuucf6375jb06914.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALYbXsVZ5u0iodJi97fdCEa02sVRAlU2M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

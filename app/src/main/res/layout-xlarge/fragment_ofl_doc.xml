@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/background"
+    tools:context="com.magma.minemagma.Nav_Fragments.OflDoc">
+
+    <ListView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_section"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

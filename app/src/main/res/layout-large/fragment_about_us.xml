@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:background="@drawable/background"
+    tools:context="com.magma.minemagma.Nav_Fragments.AboutUs"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linear_layout_for_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="32dp"
+                        android:id="@+id/horiline"
+                        android:layout_height="4dp"
+                        android:background="#FFCED26A"
+                        android:gravity="center"
+                        android:layout_centerHorizontal="true"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:gravity="center"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp">
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:background="@drawable/aboutor"
+                            android:text="ABOUT"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            android:textColor="#ffffff"
+                            />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="620dp"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:id="@+id/tv1"
+                    android:textColor="#ffffff"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:textSize="30dp"
+                    android:scrollbars = "vertical"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:text=
+                        "MAGMA was created in mid 2016 by a group of mining engineers from premier institutes and larger organizations who had a quench to create a multi layered knowledge based and mining solution that can be accessed at any RL. Realising the current need of the Mining Fraternity, MAGMA has introduced a m-commerce platform that would provide one click solution(s) to the patrons that shall share knowledge &amp; provide information(s) on latest updates on all Statutory Acts, Rules, Regulations, Mining Policies, Amendments, Dynamic innovations on latest Mining Technologies, articles on mine economy and other relevant information across the state(s), the whole of India and at international levels. MAGMA has created a single gateway to mining industry professionals fostering learning &amp; sharing knowledge using a mobile based application."/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="32dp"
+                        android:id="@+id/horiline2"
+                        android:layout_height="4dp"
+                        android:background="#FFCED26A"
+                        android:gravity="center"
+                        android:layout_centerHorizontal="true"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:gravity="center"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp">
+
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:background="@drawable/aboutor"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            android:textColor="#ffffff"
+                            android:text="MISSION"
+                            android:layout_marginRight="25dp"
+                            android:id="@+id/textView7" />
+
+                        <TextView
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="300dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:background="@drawable/aboutor"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            android:textColor="#ffffff"
+                            android:text="VISION"
+                            android:id="@+id/textView8" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="420dp"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:id="@+id/tv2"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:scrollbars = "vertical"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:text="Vision: To create an ameliorated mobile based application that helps mining industry professionals to be updated from all gamut pertinent to Global mining aspects.\n \nMission: To introduce the mining profesionals to a m-commerce platform with the latest global mining updates on all Statutory Acts, Rules, Regulations, Mining Policies, Amendments, Dynamic Innovations on latest Mining Technologies, articles on mine economy and other relevant information etc across the world learning &amp; sharing knowledge using a mobile based application."/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_for_text"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@android:color/black"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MAGMA The Miners' Anatomy"
+            android:background="#FFCED26A"
+            android:textSize="35dp"
+            android:textColor="#ffffff"
+            android:id="@+id/textView9"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

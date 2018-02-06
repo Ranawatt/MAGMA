@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="12dp">
+
+    <TextView
+        android:id="@+id/grid_text"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        android:textSize="12dp"
+        android:padding="20dp"
+        android:background="@drawable/ellipse"
+        android:text="sample"
+        android:textAlignment="center"
+        android:gravity="center">
+    </TextView>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="1dp"
+        android:id="@+id/checkBox2" />
+
+</LinearLayout>
+

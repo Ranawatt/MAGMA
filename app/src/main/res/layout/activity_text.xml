@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="2"
+    android:orientation="vertical"
+    tools:context="com.magma.minemagma.TextActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back"
+            android:onClick="back"
+            android:layout_height="30dp">
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Offline Reader"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="25dp" ></TextView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="New Text"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:id="@+id/textView15"
+        android:layout_gravity="center_horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/horiline"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:maxLines = "100"
+        android:scrollbars = "vertical"
+        android:text="New Text"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:id="@+id/textView14"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single" android:id="@+id/grp1">
+        <item android:id="@+id/nav_home" android:icon="@drawable/home" android:title="HOME"/>
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/grp2">
+        <item android:id="@+id/nav_search" android:icon="@drawable/search" android:title="SEARCH" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/grp3">
+        <item android:id="@+id/nav_contact" android:icon="@drawable/contact" android:title="CONTACT US" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/grp4">
+        <item android:id="@+id/nav_about" android:icon="@drawable/about" android:title="ABOUT US" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/grp7">
+        <item android:id="@+id/nav_promadv" android:icon="@drawable/promoter" android:title="FINANCER &amp; ADVISER" />
+    </group>
+
+    <group android:id="@+id/grp10" android:checkableBehavior="single">
+        <item android:id="@+id/blnk"></item>
+    </group>
+
+</menu>

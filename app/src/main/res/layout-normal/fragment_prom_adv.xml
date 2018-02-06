@@ -1,0 +1,219 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:background="@drawable/background"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context="com.magma.minemagma.Nav_Fragments.PromAdv">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Founders"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:background="#FFCED26A"
+                    android:id="@+id/textView4" />
+
+                <FrameLayout
+                    android:id="@+id/frm1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp">
+
+                    <GridView
+                        android:numColumns="auto_fit"
+                        android:gravity="center"
+                        android:columnWidth="100dp"
+                        android:stretchMode="columnWidth"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/grid2"
+                        />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Advisors &amp; Guide"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:background="#FF4BB2E1"
+                    android:id="@+id/textView5" />
+
+                <FrameLayout
+                    android:id="@+id/frm2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp">
+
+                    <GridView
+                        android:numColumns="auto_fit"
+                        android:gravity="center"
+                        android:columnWidth="100dp"
+                        android:stretchMode="columnWidth"
+                        android:layout_width="fill_parent"
+                        android:layout_height="256dp"
+                        android:id="@+id/grid3"
+                        />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Promoters"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:background="#FFEFA457"
+                    android:id="@+id/textView6" />
+
+                <LinearLayout
+                    android:id="@+id/frm3"
+                    android:orientation="vertical"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="5dp"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/p1"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/alfalogo"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="4dp"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/erm"
+                                android:id="@+id/p2"
+                                android:scaleType="fitXY"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="4dp"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/p3"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/bkg"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/p4"
+                                android:src="@drawable/mhrlogo"
+                                android:scaleType="fitXY"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/narayanimines"
+                            android:src="@drawable/narayanmines"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+

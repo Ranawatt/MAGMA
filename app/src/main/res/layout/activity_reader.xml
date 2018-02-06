@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.magma.minemagma.ReaderActivity">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back"
+            android:onClick="back"
+            android:layout_height="30dp">
+        </Button>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Reader"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="25dp" ></TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="?attr/colorPrimary"
+        android:layout_alignParentBottom="true" >
+
+        <ImageButton
+            android:id="@+id/ib1"
+            android:src="@drawable/premin"
+            android:background="?attr/colorPrimary"
+            android:layout_width="30dp"
+            android:onClick="pre_press"
+            android:layout_gravity="center"
+            android:layout_height="30dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="1" />
+
+
+        <ImageButton
+            android:id="@+id/ib2"
+            android:src="@drawable/voice"
+            android:background="?attr/colorPrimary"
+            android:layout_width="35dp"
+            android:onClick="voice_press"
+            android:layout_gravity="center"
+            android:layout_height="35dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/ib3"
+            android:src="@drawable/ofldoc"
+            android:background="?attr/colorPrimary"
+            android:layout_width="35dp"
+            android:onClick="offline_press"
+            android:layout_gravity="center"
+            android:layout_height="35dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/ib4"
+            android:src="@drawable/share"
+            android:background="?attr/colorPrimary"
+            android:layout_width="35dp"
+            android:onClick="share_press"
+            android:layout_gravity="center"
+            android:layout_height="35dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/ib5"
+            android:src="@drawable/nextmin"
+            android:background="?attr/colorPrimary"
+            android:layout_width="30dp"
+            android:onClick="next_press"
+            android:layout_gravity="center"
+            android:layout_height="30dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical" android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Section 1 : Title"
+            android:layout_gravity="center"
+            android:id="@+id/readerheader"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/tv"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:textSize="18dp"
+            android:maxLines = "100"
+            android:scrollbars = "vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="These rules may be called the Mineral (Auction) Rules, 2015.\n\nThey shall come into force on the date of their publication in the Official Gazette.\n\nIn these rules, unless the context otherwise requires,-\n\nACT means the Mines and Minerals (Development and Regulation) Act, 1957 (67 of 1957)"></TextView>
+    </LinearLayout>
+
+</LinearLayout>

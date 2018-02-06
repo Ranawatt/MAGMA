@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.magma.minemagma.SectionActivity">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:background="?attr/colorPrimary"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/back"
+            android:onClick="back"
+            android:layout_height="55dp">
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="IBM Circular"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="45dp" ></TextView>
+    </RelativeLayout>
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_section"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
+

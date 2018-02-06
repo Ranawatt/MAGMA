@@ -1,0 +1,230 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context="com.magma.minemagma.Nav_Fragments.Information"
+    android:layout_height="match_parent" android:background="#000000" android:id="@+id/fragment_container" android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="0.5dp"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="#000000"
+                android:layout_height="match_parent"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/first_button"
+                    android:layout_width="match_parent"
+                    android:background="#FFE0AF43"
+                    android:layout_height="280dp"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:paddingTop="10dp"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/sar"
+                        android:id="@+id/img2"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:text="Statutory Acts and Rules"
+                        android:id="@+id/txt2"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/third_button"
+                    android:background="#FF2EA599"
+                    android:layout_height="330dp"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/ibm"
+                        android:id="@+id/img3"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:text="IBM Circular and Guidance"
+                        android:id="@+id/txt3"
+                        android:layout_marginRight="5dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/five_button"
+                    android:padding="10dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFD26163"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:paddingTop="10dp"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:src="@drawable/guides"
+                        android:id="@+id/img4"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:paddingTop="5dp"
+                        android:textSize="30dp"
+                        android:text="MoEF Guidelines"
+                        android:id="@+id/txt4"
+                        android:textColor="#ffffff"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.5dp"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="#000000"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/second_button"
+                    android:padding="10dp"
+                    android:background="#FF379247"
+                    android:layout_height="310dp"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/courts"
+                        android:id="@+id/img6"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:paddingTop="5dp"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:text="Court Orders and Judgements"
+                        android:id="@+id/txt6"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="175dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:background="#FFBA4A70"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="135dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_height="135dp"
+                        android:src="@drawable/ministry"
+                        android:id="@+id/img1"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:text="Ministry of Mines Circulars and Guidelines"
+                        android:id="@+id/txt1"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/six_button"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FF36374C"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="25dp"
+                        android:src="@drawable/toplinks"
+                        android:id="@+id/img7"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:text="Useful Links"
+                        android:id="@+id/txt7"
+                        android:textColor="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

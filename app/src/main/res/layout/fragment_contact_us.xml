@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" android:weightSum="2" android:background="@drawable/background"
+    tools:context="com.magma.minemagma.Nav_Fragments.ContactUs">
+
+<LinearLayout android:layout_width="match_parent"  android:paddingLeft="10dp" android:paddingRight="10dp"
+    android:layout_height="wrap_content" android:orientation="vertical" android:weightSum="5">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textColor="#FFEBCD1A"
+            android:textSize="18dp"
+            android:text="MAGMA The Miners' Anatomy"
+            android:id="@+id/textView10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/phone"/>
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+91 8029741902"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/worldwidelocation"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16dp"
+            android:text="A-110, Pyramid Templebells Apartment, 16th Cross, Beside Bata Showroom, Rajarajeshwari Nagar, Bangalore, Karnataka - 560098(INDIA)"
+            android:textColor="#ffffff"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_gravity="center_horizontal">
+
+        <!--<com.google.android.gms.maps.MapView-->
+            <!--android:id="@+id/map"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/map"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:maxLines="3"
+            android:textColor="#ffffff"
+            android:text="If you have any information or queries that you think we would be interested in, e-mail at contact@minemagma.com"
+            android:id="@+id/textView13" />
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="#FFEBCD1A"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView3"
+                android:src="@drawable/emailcontact"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/domain"
+                android:id="@+id/imageView5"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/contfb"
+                android:id="@+id/imageView6"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView7"
+                android:src="@drawable/twitter"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

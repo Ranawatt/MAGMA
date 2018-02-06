@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:id="@+id/bg_image"
+    android:weightSum="2"
+    tools:context="com.magma.minemagma.OrderSecActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ar_btn"
+            android:layout_width="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back"
+            android:onClick="back"
+            android:layout_height="30dp">
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Orders &amp; Judgements"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="25dp" ></TextView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="2016"
+            android:paddingLeft="20dp"
+            android:textSize="20dp"
+            android:gravity="left|center_vertical"
+            android:background="@drawable/searchlatest"
+            android:onClick="search"
+            android:layout_height="60dp">
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="25dp" >
+
+        </TextView>
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="To be uploaded"
+            android:id="@+id/upload"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="25dp" >
+
+        </TextView>
+
+        <GridView
+            android:numColumns="auto_fit"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:columnWidth="100dp"
+            android:stretchMode="columnWidth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/grid"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

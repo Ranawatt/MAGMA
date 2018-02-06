@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MAGMA</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_chapters">ChaptersActivity</string>
+    <string name="title_activity_section">SectionActivity</string>
+    <string name="title_activity_reader">ReaderActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="title_activity_menuslide">MenuslideActivity</string>
+    <string name="title">About Us</string>
+    <string name="title_activity_ibmcircular">IBMCircular</string>
+    <string name="title_activity_ibmreader">IBMReader</string>
+    <string name="title_activity_text">TextActivity</string>
+
+    <string name="app_name_with_index">PdfRendererBasic (%1$d/%2$d)</string>
+    <string name="info">Info</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="title_activity_splash">Splash</string>
+
+    <string name="facebook_app_id">194773690967192</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="google_maps_key">AIzaSyBMpScTIV69uq8g48IHGHtsvK7OHX9ynY4</string>
+
+
+</resources>

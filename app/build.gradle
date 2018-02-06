@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.magma.minemagma"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 7
+        versionName "7.0.1"
+        useLibrary 'org.apache.http.legacy'
+        multiDexEnabled true
+
+        //generatedDensities = []
+    }
+//    dexOptions {
+//        javaMaxHeapSize "4g"
+//    }
+
+    // Flag to tell aapt to keep the attribute ids around
+    // This is handled for you by the 2.0+ Gradle Plugin
+    aaptOptions {
+        additionalParameters "--no-version-vectors"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile 'junit:junit:4.12'
+    //    compile 'com.joanzapata.pdfview:android-pdfview:1.0.4@aar'
+    compile files('libs/PdfViewer.jar')
+    // compile 'com.anjlab.android.iab.v3:library:1.0.+'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:design:25.0.0'
+    compile 'com.android.support:support-v4:25.0.0'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    //compile 'com.facebook.android:facebook-android-sdk:4.0.0'
+    compile 'com.google.android.gms:play-services:9.6.0'
+    //compile 'com.google.android.gms:play-services-auth:8.3.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.facebook.android:facebook-android-sdk:4.1.0'
+
+}

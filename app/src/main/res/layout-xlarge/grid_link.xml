@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="220dp"
+    android:background="@drawable/moef_rounded_corner"
+    android:id="@+id/relative5">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/imageWeb"
+        android:background="@drawable/webtest"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/webText"
+        android:layout_below="@+id/imageWeb"
+        android:lines="3"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="17dp"
+        />
+
+</RelativeLayout>

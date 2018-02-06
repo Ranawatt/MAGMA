@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="?attr/colorPrimary"
+    tools:context="com.magma.minemagma.MenuslideActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="2">
+
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/user"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:id="@+id/imageView4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HITARTH PARIKH"
+                android:paddingTop="45dp"
+                android:textSize="20dp"
+                android:textColor="#00b200"
+                android:id="@+id/profilename" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="View Profile"
+                android:id="@+id/textView3"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
